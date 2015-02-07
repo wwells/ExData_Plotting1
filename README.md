@@ -4,7 +4,7 @@ Then run "GetandTidyData.R" in the appropriate working directory.
 This script will take the larger dataset and subset and clean by:
 
 * Only using rows from the correct dates
-* Adding a new "Timestamp" filed that combines Date and Time and uses the striptime function to ensure proper formatting
+* Adding a new "Timestamp" field that combines Date and Time and uses the striptime function to ensure proper formatting
 * Adjusts column order (personal preference)
 
 Once data is prepared, the 4 "plot_n.R" functions will create the desired graphs.
